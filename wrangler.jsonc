@@ -1,6 +1,6 @@
 {
   // Replace "name" with your existing Worker name if it differs.
-  "name": "techandsupport-website",
+  "name": "test",
   "main": "./send-enquiry.js",
   "compatibility_date": "2025-10-01",
   "observability": { "enabled": true },
