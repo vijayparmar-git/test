@@ -1,0 +1,14 @@
+{
+  // Replace "name" with your existing Worker name if it differs.
+  "name": "techandsupport-website",
+  "main": "./send-enquiry.js",
+  "compatibility_date": "2025-10-01",
+  "observability": { "enabled": true },
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page",
+    "run_worker_first": ["/send-enquiry", "/send-enquiry/"]
+  }
+}

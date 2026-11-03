@@ -1,0 +1,8 @@
+.assetsignore
+send-enquiry.js
+wrangler.jsonc
+node_modules
+.git
+.github
+.wrangler
+.dev.vars
